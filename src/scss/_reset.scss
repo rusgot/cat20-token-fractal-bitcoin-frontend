@@ -1,0 +1,104 @@
+@use "variables" as *;
+@use "mixin" as *;
+
+@font-face {
+  font-family: "Clash";
+  src: url("../font/ClashDisplay-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Clash";
+  src: url("../font/ClashDisplay-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: semibold;
+}
+
+@font-face {
+  font-family: "Clash";
+  src: url("../font/ClashDisplay-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: "Clash";
+  src: url("../font/ClashDisplay-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: "Clash";
+  src: url("../font/ClashDisplay-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: light;
+}
+
+@font-face {
+  font-family: "Clash";
+  src: url("../font/ClashDisplay-Extralight.otf") format("opentype");
+  font-weight: 200;
+  font-style: extralight;
+}
+
+:root {
+  --bg-color: #{$neutral-100};
+
+  --green-500: #{$green-500};
+  --green-700: #{$green-700};
+
+  --violet-700: #{$violet-700};
+
+  --indigo-700: #{$indigo-700};
+
+  --cyan-700: #{$green-700};
+
+  --neutral-600: #{$neutral-600};
+  --neutral-800: #{$neutral-800};
+  --neutral-900: #{$neutral-900};
+  --neutral-1200: #{$neutral-1200};
+  --neutral-1300: #{$neutral-1300};
+  --neutral-1400: #{$neutral-1400};
+  --neutral-black: #{$neutral-black};
+
+  --error-700: #{$error-700};
+  --error-900: #{$error-900};
+
+  --space-100: #{$sp-100};
+  --space-150: #{$sp-150};
+  --space-200: #{$sp-200};
+
+  --component-animation: #{$component-animation};
+}
+
+[data-theme="dark"] {
+  --bg-color: #{$neutral-1400};
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  width: 100%;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}

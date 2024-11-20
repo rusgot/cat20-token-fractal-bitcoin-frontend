@@ -1,0 +1,26 @@
+@use "variables" as *;
+
+$breakpoints: (
+  "xm": 375px,
+  "sm": 640px,
+  "md": 768px,
+  "lg": 1140px,
+  "xl": 1280px,
+  "2xl": 1440px,
+  "3xl": 1920px,
+);
+
+@mixin breakpoint($name) {
+  @media (min-width: map-get($breakpoints, $name)) {
+    @content;
+  }
+}
+
+@mixin centerItem {
+  display: grid;
+  place-items: center;
+}
+
+@mixin normalAnim {
+  transition: $normal-animation;
+}
