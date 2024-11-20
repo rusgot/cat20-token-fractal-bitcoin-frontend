@@ -1,5 +1,10 @@
 # Gorustbtc
 
+![cat](https://github.com/user-attachments/assets/9040807d-1bd8-40bc-bfbf-84ed0147f33e)
+
+
+
+
 This project is a frontend for the CAT20 token minter. It is built with Next.js and uses the [CATProtocol/cat-token-box](https://github.com/rusgot/cat20-token-fractal-bitcoin) API to fetch data.
 
 ## Getting Started
