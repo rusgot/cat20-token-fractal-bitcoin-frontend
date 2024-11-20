@@ -1,6 +1,6 @@
-# Flur
+# Gorustbtc
 
-This project is a frontend for the CAT20 token minter. It is built with Next.js and uses the [CATProtocol/cat-token-box](https://github.com/CATProtocol/cat-token-box) API to fetch data.
+This project is a frontend for the CAT20 token minter. It is built with Next.js and uses the [CATProtocol/cat-token-box](https://github.com/rusgot/cat20-token-fractal-bitcoin) API to fetch data.
 
 ## Getting Started
 
@@ -40,7 +40,7 @@ NEXT_PUBLIC_API_URL=http://localhost:3000
 
 ## Tracker API
 
-The tracker API is hosted on the [CATProtocol/cat-token-box](https://github.com/CATProtocol/cat-token-box) repository.
+The tracker API is hosted on the [CATProtocol/cat-token-box](https://github.com/rusgot/cat20-token-fractal-bitcoin) repository.
 
 ## License
 

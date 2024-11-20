@@ -8,7 +8,7 @@ import {
 	DropdownMenuItem,
 	DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu'
-import { Copy, Github, Menu, Search, X, Twitter, InfoIcon } from 'lucide-react'
+import { Copy, Github, Menu, Search, X, InfoIcon, Twitter } from 'lucide-react'
 import { useToast } from '@/hooks/use-toast'
 import { useWallet } from '@/lib/unisat'
 import Link from 'next/link'
@@ -264,7 +264,7 @@ export const Header: React.FC = () => {
 					)}
 					<div className="flex items-center gap-4">
 						<a
-							href="https://github.com/open-fractal/flur"
+							href="https://github.com/rusgot/cat20-token-fractal-bitcoin-frontend"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="text-gray-600 hover:text-white transition-all ease-in-out duration-300 transform hover:scale-110"
@@ -272,7 +272,7 @@ export const Header: React.FC = () => {
 							<Github size={16} />
 						</a>
 						<a
-							href="https://x.com/Flur69"
+							href="https://x.com/Gorustbtc"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="text-gray-600 hover:text-white transition-all ease-in-out duration-300 transform hover:scale-110"
@@ -394,7 +394,7 @@ export const Header: React.FC = () => {
 
 							<div className="flex justify-center gap-4">
 								<a
-									href="https://github.com/open-fractal/flur"
+									href="https://github.com/rusgot/cat20-token-fractal-bitcoin-frontend"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="text-gray-600 hover:text-white transition-all ease-in-out duration-300 transform hover:scale-110"
@@ -402,7 +402,7 @@ export const Header: React.FC = () => {
 									<Github size={24} />
 								</a>
 								<a
-									href="https://x.com/Flur69"
+									href="https://x.com/Gorustbtc"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="text-gray-600 hover:text-white transition-all ease-in-out duration-300 transform hover:scale-110"

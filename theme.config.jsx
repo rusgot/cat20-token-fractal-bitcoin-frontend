@@ -3,9 +3,9 @@ import { Header } from '@/components/Header'
 export default {
 	logo: <span>Flur Docs</span>,
 	project: {
-		link: 'https://github.com/open-fractal/flur'
+		link: 'https://github.com/rusgot/cat20-token-fractal-bitcoin-frontend'
 	},
-	docsRepositoryBase: 'https://github.com/open-fractal/flur/tree/main',
+	docsRepositoryBase: 'https://github.com/rusgot/cat20-token-fractal-bitcoin-frontend',
 
 	navbar: {
 		component: () => <Header />
