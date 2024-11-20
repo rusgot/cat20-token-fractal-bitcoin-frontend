@@ -45,12 +45,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 	// Generate metadata based on token details
 	return {
-		title: `${tokenDetails.symbol} ${token_id} | Flur.gg`,
-		description: `View ${tokenDetails.symbol} token details on Flur.gg.`,
+		title: `${tokenDetails.symbol} ${token_id} | Gorustbtc`,
+		description: `View ${tokenDetails.symbol} token details on Gorustbtc.`,
 		openGraph: {
-			title: `${tokenDetails.symbol} ${token_id} | Flur.gg`,
-			description: `View ${tokenDetails.symbol} token details on Flur.gg.`,
-			images: ['https://flur.gg/unfurl.jpeg']
+			title: `${tokenDetails.symbol} ${token_id} | Gorustbtc`,
+			description: `View ${tokenDetails.symbol} token details on Gorustbtc.`,
+			images: ['https://drive.google.com/file/d/1PfxDy-F4t8peCn-7mHlgvOJsdNmNFkT3/view?usp=sharing']
 		}
 	}
 }

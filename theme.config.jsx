@@ -1,7 +1,7 @@
 import { Header } from '@/components/Header'
 
 export default {
-	logo: <span>Flur Docs</span>,
+	logo: <span>Gorustbtc Docs</span>,
 	project: {
 		link: 'https://github.com/rusgot/cat20-token-fractal-bitcoin-frontend'
 	},

@@ -10,12 +10,12 @@ import { Metadata } from 'next'
 import { TokenBalances } from '@/components/token-balances'
 
 export const metadata: Metadata = {
-	title: 'Flur',
+	title: 'Gorustbtc',
 	description: 'Developing open-source applications on Bitcoin using OP_CAT.',
 	openGraph: {
-		images: ['https://flur.gg/unfurl.jpeg'],
+		images: ['https://drive.google.com/file/d/1PfxDy-F4t8peCn-7mHlgvOJsdNmNFkT3/view?usp=sharing'],
 		url: 'https://flur.gg',
-		title: 'Flur',
+		title: 'Gorustbtc',
 		description: 'Developing open-source applications on Bitcoin using OP_CAT.'
 	}
 }
